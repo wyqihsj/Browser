@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+   
+
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        
+        >
+
+     
+
+        <WebView
+            android:id="@+id/webView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+           
+             />
+        
+    </RelativeLayout>
+   
+       
+
+
+<LinearLayout 
+    android:background="@drawable/bg_chat_005"
+    android:layout_weight="1"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/icon_home" 
+        />
+
+<EditText
+    android:id="@+id/urltext"
+    android:layout_width="0dp"
+    android:layout_weight="1"
+    android:layout_height="40dp"
+    android:background="@drawable/input_search_pre"
+    android:paddingLeft="10dp"
+    android:hint="请输入网址"
+    android:singleLine="true"
+    android:imeOptions="actionSearch"
+    
+    
+    />
+      <Button
+    
+    android:id="@+id/go"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:background="@drawable/ic_btn_find_next"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+          
+          ></Button>
+
+></LinearLayout>
+        
+    
+    </LinearLayout>
+    
+
+
+
+    
